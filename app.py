@@ -6,7 +6,7 @@ This app never reads or re-embeds the PDFs; it only embeds the user's question.
 import json
 from pathlib import Path
 
-import faiss
+import faiss-cpu
 import streamlit as st
 from groq import Groq
 from sentence_transformers import SentenceTransformer
